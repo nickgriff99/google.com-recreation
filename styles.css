@@ -1,0 +1,75 @@
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 50px;
+  width: 100%;
+  background-color: #eaeaea;
+}
+
+footer {
+  display: flex;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  border-top: 3px solid #eaeaea;
+  background-color: #eaeaea;
+  left: 0;
+  position: fixed;
+  align-items: center;
+  padding: 20px;
+}
+
+.leftFooter, .rightFooter {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.rightFooter > .leftFooter {
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+}
+
+.leftFooter {
+  width: 18%;
+  justify-content: flex-start;
+}
+
+.rightFooter {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-tools {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+#default-google-image {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#search-icons, #default-profile-icon {
+  width: 50px;
+  padding: 10px;
+}
+
