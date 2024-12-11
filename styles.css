@@ -12,6 +12,10 @@ body {
   max-width: 100%;
 }
 
+.main {
+  margin-bottom: 100px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -53,7 +57,6 @@ footer {
   left: 0;
   position: fixed;
   align-items: center;
-  padding: 20px;
   max-width: 100%;
 }
 
@@ -101,7 +104,7 @@ image {
   max-height: 100%;
 }
 
-#search-icons, #default-profile-icon {
+#default-profile-icon {
   width: 50px;
   padding: 10px;
   margin-top: 8px;
@@ -116,16 +119,33 @@ image {
 }
 
 .search-bar {
-  width: 400px;
+  display: flex;
+  width: 800px;
+  height: 50px;
   justify-content: center;
   align-items: center;
-  border: 1px solid;
+  border: 1px solid #999797;
   border-radius: 25px;
-  box-shadow: 0 1px 2px;
+  box-shadow: 0 1px 2px #999797;
+}
+
+#search-icons {
+  display: flex;
+  width: 40px;
+  height: auto;
+}
+
+.search {
+  width: 700px;
+  height: 40px;
+  border: none;
 }
 
 .search-buttons {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  width: 700px;
+  height: 30px;
   margin-top: 30px;
 }
+
