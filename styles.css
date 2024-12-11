@@ -1,5 +1,6 @@
 body {
   background-color: whitesmoke;
+  height: 100vh;
 }
 
 header {
@@ -9,7 +10,15 @@ header {
   padding: 20px;
   height: 50px;
   width: 100%;
-  background-color: #eaeaea;
+}
+
+a {
+  margin: 15px;
+}
+.right-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
@@ -73,3 +82,24 @@ image {
   padding: 10px;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.search-bar {
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 25px;
+  box-shadow: 0 1px 2px;
+}
+
+.search-buttons {
+  display: flex;
+  justify-content: center;
+}
