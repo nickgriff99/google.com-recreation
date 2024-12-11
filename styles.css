@@ -1,6 +1,15 @@
+html, body {
+  overflow: hidden;
+  max-width: 100%;
+}
+
 body {
   background-color: whitesmoke;
-  height: 100vh;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 header {
@@ -10,15 +19,28 @@ header {
   padding: 20px;
   height: 50px;
   width: 100%;
+  max-width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
   margin: 15px;
 }
-.right-links {
+
+.leftLinks {
+  padding: 20px
+}
+.rightLinks {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 footer {
@@ -32,6 +54,7 @@ footer {
   position: fixed;
   align-items: center;
   padding: 20px;
+  max-width: 100%;
 }
 
 .leftFooter, .rightFooter {
@@ -49,13 +72,14 @@ footer {
 }
 
 .leftFooter {
-  width: 18%;
+  width: 25%;
   justify-content: flex-start;
 }
 
 .rightFooter {
   display: flex;
   justify-content: flex-end;
+  margin-right: 50px;
 }
 .footer-tools {
   display: flex;
@@ -80,6 +104,7 @@ image {
 #search-icons, #default-profile-icon {
   width: 50px;
   padding: 10px;
+  margin-top: 8px;
 }
 
 .main {
@@ -102,4 +127,5 @@ image {
 .search-buttons {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
