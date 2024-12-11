@@ -10,6 +10,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   max-width: 100%;
+  font: ;
 }
 
 .main {
@@ -20,10 +21,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   height: 50px;
   width: 100%;
   max-width: 100%;
+  margin-top: 5px;
 }
 
 nav {
@@ -32,8 +33,9 @@ nav {
   align-items: center;
 }
 
-a {
+.headerLinks {
   margin: 15px;
+  color: black;
 }
 
 .leftLinks {
@@ -43,7 +45,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
   margin-right: 20px;
 }
 
@@ -82,12 +83,19 @@ footer {
 .rightFooter {
   display: flex;
   justify-content: flex-end;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 .footer-tools {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
+}
+
+#bento {
+  width: 25px;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 #default-google-image {
@@ -97,6 +105,7 @@ footer {
   padding: 20px;
   justify-content: center;
   align-items: center;
+  padding-left: 20px;
 }
 
 image {
@@ -139,6 +148,7 @@ image {
   width: 700px;
   height: 40px;
   border: none;
+  background: #f2f2f2;
 }
 
 .search-buttons {
@@ -146,6 +156,12 @@ image {
   justify-content: space-evenly;
   width: 700px;
   height: 30px;
-  margin-top: 30px;
+  margin-top: 40px;
+  border: none;
 }
 
+.luckySearch {
+  border: none;
+  background: none;
+  font-size: 20px;
+}
